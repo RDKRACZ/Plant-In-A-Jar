@@ -4,16 +4,17 @@
   "version": "${version}",
 
   "name": "Plant In A Jar",
-  "description": "This is a description! I won't tell everyone what my mod is about!",
+  "description": "Advanced micro-greenhouse mod that can grow any kind of plant including trees.",
   "authors": [
-    "Me!"
+    "CoolMineman"
   ],
   "contact": {
-    "homepage": "https://github.com/CoolMineman/Plant-In-A-Jar",
-    "sources": "https://github.com/CoolMineman/Plant-In-A-Jar"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/plant-in-a-jar",
+    "sources": "https://github.com/CoolMineman/Plant-In-A-Jar",
+    "issues": "https://github.com/CoolMineman/Plant-In-A-Jar/issues"
   },
 
-  "license": "This program is free software: you can redistribute it and or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>.",
+  "license": "LGPL-3.0",
   "icon": "assets/plantinajar/icon.png",
 
   "environment": "*",
@@ -36,8 +37,5 @@
     "fabricloader": ">=0.7.4",
     "fabric": "*",
     "minecraft": "1.17.x"
-  },
-  "suggests": {
-    "flamingo": "*"
   }
 }
